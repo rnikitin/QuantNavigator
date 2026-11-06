@@ -1,7 +1,7 @@
 # Roadmap
 
-QuantNavigator is at the documentation and product design stage. The milestones
-below are planned outcomes, with acceptance criteria for a usable implementation.
+The milestones below are planned outcomes, with acceptance criteria for a usable
+implementation.
 None of the application milestones is complete. Scope and sequencing may change
 as prototypes are tested; no release dates are announced.
 
