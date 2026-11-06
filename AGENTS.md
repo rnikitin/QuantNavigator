@@ -14,23 +14,11 @@ ROADMAP.md before changing the product description.
   been verified. Documentation checks do not verify application behavior.
 - Preserve LICENSE and source attribution when adapting external material.
 
-## Karpathy-inspired coding principles
+## Required coding skill
 
-Adapted from the community [Karpathy guidelines](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/skills/karpathy-guidelines/SKILL.md),
-inspired by Andrej Karpathy's observations about coding agents.
-
-- Think before coding. Surface material assumptions and tradeoffs before choosing
-  an approach. Ask for clarification when ambiguity blocks safe progress; use
-  judgment for routine decisions within the authorized scope.
-- Simplicity first. Choose the smallest sufficient solution. Add abstractions,
-  configuration and features only when the current task needs them. Do not build
-  speculative extensions or handle hypothetical requirements.
-- Surgical changes. Keep each diff focused on the task. Preserve unrelated work
-  and follow the surrounding style. Remove unused imports, helpers and other
-  leftovers introduced by your changes; leave unrelated cleanup for a separate
-  task.
-- Goal-driven execution. Define observable success criteria and use a short plan
-  when the work warrants one. Verify in proportion to the change and its risks.
-  Mark skipped checks `NOT-RUN` with the missing prerequisite. Continue correcting
-  defects until the result is verified within the authorized scope. These
-  principles grant no new experiment, paid-call or external-action authorization.
+Before implementation, debugging, refactoring, test edits or code review, load
+and apply [karpathy-guidelines](.agents/skills/karpathy-guidelines/SKILL.md).
+Read the full file when first needed in a session, and again after context loss
+or a material change to the skill source. If host skill discovery does not list
+it, read the local path directly. Naming the skill does not count as loading it.
+Existing scope, authorization and verification policies continue to apply.
