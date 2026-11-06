@@ -1,7 +1,6 @@
 # Contributor guidance
 
-This repository is at the documentation and product design stage. Application
-code and runtime integrations have not been released. Read README.md and
+Application code and runtime integrations have not been released. Read README.md and
 ROADMAP.md before changing the product description.
 
 - Use English for public documentation, interface text and identifiers.
